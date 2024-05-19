@@ -76,6 +76,13 @@ Module.register('MMM-AnyList', {
 					this._getFadedOpacity(this.list.items.length, i) :
 					1;
 
+				// shorten category names
+				if (format == "Snacks cookies and candy") {
+                                	format = "Snacks";
+                                } else if (format == "Condiments oils and salad dressings") {
+                                	format = "Condiments";
+				}
+				
 				header.innerHTML = format;
 
 				tableContainer.append(headerRow);
