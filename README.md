@@ -1,7 +1,7 @@
 # MMM-AnyList
 
 MMM-AnyList is a Magic Mirror Module for [AnyList](https://www.anylist.com/).
-
+This is modified to shorten how some of the default category names appear in MM. I plan to add more as I come across them.
 
 ## Screenshot
 ![screenshot](/anylist.png)
@@ -10,7 +10,7 @@ MMM-AnyList is a Magic Mirror Module for [AnyList](https://www.anylist.com/).
 ## Installation
 Open a terminal session, navigate to your MagicMirror's `modules` folder and execute:
 ````
-git clone https://github.com/codetheweb/MMM-AnyList.git
+git clone https://github.com/ajg0001/MMM-AnyList.git
 cd MMM-AnyList
 npm install
 ````
