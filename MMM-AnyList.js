@@ -66,7 +66,7 @@ Module.register('MMM-AnyList', {
 				headerRow.append(header);
 
 				const toUpper = item.categoryMatchId[0].toUpperCase() + item.categoryMatchId.slice(1); // Make first letter upper case
-				const format = toUpper.replace(/-/g, ' '); // Replace hyphens with spaces
+				let format = toUpper.replace(/-/g, ' '); // Replace hyphens with spaces
 
 				if (i > 0) {
 					header.style.paddingTop = '12px';
